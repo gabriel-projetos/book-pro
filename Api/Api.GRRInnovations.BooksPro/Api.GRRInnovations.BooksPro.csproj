@@ -6,4 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.GRRInnovations.Domain\Api.GRRInnovations.Domain.csproj" />
+    <ProjectReference Include="..\Api.GRRInnovations.Infrastructure\Api.GRRInnovations.Infrastructure.csproj" />
+    <ProjectReference Include="..\Api.GRRInnovations.Interfaces\Api.GRRInnovations.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
